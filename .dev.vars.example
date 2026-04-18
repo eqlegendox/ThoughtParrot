@@ -1,0 +1,9 @@
+# Copy this to .dev.vars and fill in your values for local development
+# Never commit .dev.vars to git
+
+TELEGRAM_BOT_TOKEN=
+TELEGRAM_WEBHOOK_SECRET=
+ALLOWED_TELEGRAM_USER_ID=
+ANTHROPIC_API_KEY=
+SUPABASE_URL=
+SUPABASE_SERVICE_KEY=

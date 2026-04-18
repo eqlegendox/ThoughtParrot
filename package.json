@@ -1,0 +1,19 @@
+{
+  "name": "organise-agent",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@supabase/supabase-js": "^2.47.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250409.0",
+    "typescript": "^5.5.0",
+    "wrangler": "^3.99.0"
+  }
+}
